@@ -12,6 +12,7 @@ a {
   align-items: center;
   justify-content: flex-end;
   padding-top: 10px;
+  font-size: 13px;
 }
 
 .navbar a {
@@ -20,8 +21,8 @@ a {
 
 .navbar img {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 32px;
+  height: 32px;
 }
 
 .logo {
@@ -56,6 +57,10 @@ a {
   z-index: 1;
 }
 
+.search-bar input:focus, .buttons-bottom button:focus {
+  outline: none;
+}
+
 .buttons-bottom {
   padding-top: 20px;
   text-align: center;
@@ -65,9 +70,11 @@ a {
   background-color: #f2f2f2;
   color: #5F6368;
   height: 40px;
-  width: 150px;
+  width: 140px;
   border: none;
   border-radius: 3px;
+  font-size: 14px;
+  margin: 0 4px 0 4px;
 }
 
 .buttons-bottom button:hover {
@@ -81,14 +88,16 @@ a {
   position: fixed;
   bottom: 0px;
   left: 0px;
-  background-color: #dedede;
-  height: 50px;
+  background-color: #f2f2f2;
+  height: 40px;
   width: 100%;
   align-items: center;
   justify-content: flex-start;
 }
 
 .bottom-bar a {
+  color: #5f6368;
+  font-size: 14px;
   padding: 0 10px 0 10px;
 }
 
